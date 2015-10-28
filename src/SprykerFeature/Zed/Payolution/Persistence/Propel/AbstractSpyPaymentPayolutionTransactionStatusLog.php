@@ -2,7 +2,7 @@
 
 namespace SprykerFeature\Zed\Payolution\Persistence\Propel;
 
-use SprykerFeature\Zed\Payolution\Persistence\Propel\Base\SpyPaymentPayolutionTransactionStatusLog as BaseSpyPaymentPayolutionTransactionStatusLog;
+use Orm\Zed\Payolution\Persistence\Base\SpyPaymentPayolutionTransactionStatusLog as BaseSpyPaymentPayolutionTransactionStatusLog;
 
 /**
  * Skeleton subclass for representing a row from the 'spy_payment_payolution_transaction_status_log' table.
@@ -14,7 +14,7 @@ use SprykerFeature\Zed\Payolution\Persistence\Propel\Base\SpyPaymentPayolutionTr
  * long as it does not already exist in the output directory.
  *
  */
-class SpyPaymentPayolutionTransactionStatusLog extends BaseSpyPaymentPayolutionTransactionStatusLog
+abstract class AbstractSpyPaymentPayolutionTransactionStatusLog extends BaseSpyPaymentPayolutionTransactionStatusLog
 {
 
 }
