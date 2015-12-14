@@ -4,11 +4,11 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Client\Payolution\Service;
+namespace SprykerFeature\Client\Payolution;
 
 use Generated\Shared\Transfer\CheckoutRequestTransfer;
 use Generated\Shared\Transfer\PayolutionCalculationResponseTransfer;
-use SprykerEngine\Client\Kernel\Service\AbstractClient;
+use SprykerEngine\Client\Kernel\AbstractClient;
 
 /**
  * @method PayolutionDependencyContainer getDependencyContainer()

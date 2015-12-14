@@ -4,12 +4,12 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Client\Payolution\Service;
+namespace SprykerFeature\Client\Payolution\Zed;
 
 use Generated\Shared\Transfer\CheckoutRequestTransfer;
 use Generated\Shared\Transfer\PayolutionCalculationResponseTransfer;
 
-interface PayolutionClientInterface
+interface PayolutionStubInterface
 {
 
     /**
