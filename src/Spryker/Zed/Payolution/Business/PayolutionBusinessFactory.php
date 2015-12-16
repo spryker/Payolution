@@ -29,7 +29,7 @@ use Spryker\Zed\Payolution\PayolutionConfig;
  * @method PayolutionQueryContainerInterface getQueryContainer()
  * @method PayolutionConfig getConfig()
  */
-class PayolutionDependencyContainer extends AbstractBusinessFactory
+class PayolutionBusinessFactory extends AbstractBusinessFactory
 {
 
     /**

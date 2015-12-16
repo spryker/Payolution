@@ -19,7 +19,7 @@ use Spryker\Zed\Mail\Business\MailFacade;
  * @method PayolutionQueryContainerInterface getQueryContainer()
  * @method PayolutionConfig getConfig()
  */
-class PayolutionDependencyContainer extends AbstractCommunicationFactory
+class PayolutionCommunicationFactory extends AbstractCommunicationFactory
 {
 
     /**

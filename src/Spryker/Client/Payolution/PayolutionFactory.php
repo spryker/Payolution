@@ -12,7 +12,7 @@ use Spryker\Client\Payolution\Zed\PayolutionStub;
 use Spryker\Client\Payolution\Zed\PayolutionStubInterface;
 use Generated\Client\Ide\FactoryAutoCompletion\PayolutionService;
 
-class PayolutionDependencyContainer extends AbstractFactory
+class PayolutionFactory extends AbstractFactory
 {
 
     /**
