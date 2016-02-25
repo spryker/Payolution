@@ -1,14 +1,11 @@
 <?php
-
 /**
  * (c) Spryker Systems GmbH copyright protected
  */
-
 namespace Spryker\Zed\Payolution\Dependency\Facade;
 
-interface PayolutionToSalesInterface
+interface PayolutionToSalesAggregatorInterface
 {
-
     /**
      * @param int $idSalesOrder
      *
