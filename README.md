@@ -1,11 +1,15 @@
-# Spryker Commerce OS
+# Payolution Module
 
-## Core Modules
+Payolution is an integration module for implementing Payolution payment provider (https://www.payolution.com/en/). Integrated payment options are invoice and installment.
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spryker/spryker-core/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/spryker/spryker-core/?branch=master)
+**This module is not continued at this point.**
 
-### Links
-- **[Spryker Documentation](https://academy.spryker.com/)**
-- [Spryker Architecture-Sniffer](https://github.com/spryker/architecture-sniffer)
-- [Spryker Code-Sniffer](https://github.com/spryker/code-sniffer)
-- [Spryker Code-Generator](https://github.com/spryker/code-generator)
+## Installation
+
+```
+composer require spryker/payolution
+```
+
+## Documentation
+
+[Module Documentation](https://academy.spryker.com/developing_with_spryker/3rd-party_integration/integration_payment_payolution.html)
